@@ -1,0 +1,17 @@
+{
+  "name": "bookshop",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": "^9",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^2.4"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "deploy": "cds deploy --to sqlite:db.sqlite",
+    "build": "cds build"
+  },
+  "private": true
+}
